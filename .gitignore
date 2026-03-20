@@ -1,0 +1,7 @@
+.idea
+.tmp
+.DS_store
+/gotestwaf
+/main
+/reports/*
+/modsec_stat_*.txt

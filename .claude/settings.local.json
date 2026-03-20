@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(go build:*)",
+      "Bash(set GOPATH=%USERPROFILE%go)",
+      "Bash(set GOMODCACHE=%USERPROFILE%gopkgmod)",
+      "Bash(mkdir -p \"$HOME/go/pkg/mod\")",
+      "Bash(GOPATH=\"$HOME/go\" GOMODCACHE=\"$HOME/go/pkg/mod\" go build -o gotestwaf-new.exe ./cmd/gotestwaf)",
+      "Bash(\"D:\\\\WAFtest\\\\gotestwaf\\\\gotestwaf-0.5.8\\\\gotestwaf-new.exe\" --version 2>&1)",
+      "Bash(\"D:\\\\WAFtest\\\\gotestwaf\\\\gotestwaf-0.5.8\\\\gotestwaf-new.exe\" --version)",
+      "Bash(\"D:\\\\WAFtest\\\\gotestwaf\\\\gotestwaf-0.5.8\\\\gotestwaf-cn.exe\" --version)",
+      "Bash(go run:*)",
+      "Bash(go test:*)",
+      "Bash(GOPATH=\"D:/WAFtest/gotestwaf/gopath\" GOCACHE=\"D:/WAFtest/gotestwaf/gocache\" go build ./internal/report/...)",
+      "Bash(GOPATH=\"D:/WAFtest/gotestwaf/gopath\" GOCACHE=\"D:/WAFtest/gotestwaf/gocache\" go test -count=1 -v ./internal/report/...)",
+      "Bash(GOPATH=\"D:/WAFtest/gotestwaf/gopath\" GOCACHE=\"D:/WAFtest/gotestwaf/gocache\" go build ./...)",
+      "Bash(GOPATH=\"D:/WAFtest/gotestwaf/gopath\" GOCACHE=\"D:/WAFtest/gotestwaf/gocache\" go test -count=1 -v -run TestDocxReportGeneration ./internal/report/...)",
+      "Bash(D:/WAFtest/gotestwaf/gotestwaf-0.5.8/build/gotestwaf-0.5.8-windows-amd64.exe --version 2>&1)",
+      "Bash(D:/WAFtest/gotestwaf/gotestwaf-0.5.8/build/gotestwaf-0.5.8-windows-amd64.exe --help)",
+      "Bash(dir \"D:\\\\WAF-Rule-Validator\\\\WAF-Rule-Validator\\\\testcases\")"
+    ]
+  }
+}
